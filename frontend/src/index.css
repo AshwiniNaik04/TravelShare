@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #353636;
+}
+
+main {
+  padding-top: 4rem;
+  margin: 0;
+}

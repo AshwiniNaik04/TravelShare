@@ -1,0 +1,41 @@
+.no-places-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.no-places-card {
+  text-align: center;
+  padding: 30px 25px;
+  max-width: 400px;
+  border-radius: 12px;
+  background: #f9f9f9;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.no-places-card h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.no-places-card p {
+  margin-bottom: 20px;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.no-places-card button {
+  background: linear-gradient(45deg, #00ffff, #1abc9c); /* auth-style gradient */
+  color: black;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.no-places-card button:hover {
+  box-shadow: 0 0 10px #1abc9c;
+  transform: translateY(-1px);
+}

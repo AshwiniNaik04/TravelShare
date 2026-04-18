@@ -1,0 +1,62 @@
+.new-place {
+  width: 90%;
+  max-width: 40rem;
+  margin: 3rem auto;
+}
+
+.new-place__card {
+  padding: 2rem;
+}
+
+.new-place h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.form-control {
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-control label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.form-control input,
+.form-control textarea {
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font: inherit;
+  transition: 0.3s ease;
+}
+
+.form-control input:focus,
+.form-control textarea:focus {
+  outline: none;
+  border-color: #1abc9c;
+  box-shadow: 0 0 0 2px rgba(26, 188, 156, 0.2);
+}
+
+.form-control input[type="file"] {
+  padding: 0.4rem;
+  border: none;
+}
+
+.new-place button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #1abc9c;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.new-place button:hover {
+  background-color: #16a085;
+}
