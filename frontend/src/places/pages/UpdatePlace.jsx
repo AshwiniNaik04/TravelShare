@@ -4,7 +4,7 @@ import { AuthContext } from "../../shared/context/AuthContext";
 import "./UpdatePlace.css";
 
 const UpdatePlace = () => {
-  const { pid } = useParams(); 
+  const { pid } = useParams();
   const navigate = useNavigate();
   const auth = useContext(AuthContext);
 
@@ -17,7 +17,7 @@ const UpdatePlace = () => {
     const fetchPlace = async () => {
       try {
         const response = await fetch(
-          `http://localhost:5000/api/places/${pid}`
+          `https://travelshare-mjrv.onrender.com/api/places/${pid}`
         );
 
         const data = await response.json();
@@ -38,7 +38,7 @@ const UpdatePlace = () => {
     e.preventDefault();
 
     try {
-      await fetch(`http://localhost:5000/api/places/${pid}`, {
+      await fetch(`https://travelshare-mjrv.onrender.com/api/places/${pid}`, {
         method: "PATCH",
         headers: {
           "Content-Type": "application/json",
@@ -47,7 +47,7 @@ const UpdatePlace = () => {
         body: JSON.stringify({
           title,
           description,
-          userId: auth.userId 
+          userId: auth.userId
         })
       });
 

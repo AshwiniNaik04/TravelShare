@@ -14,7 +14,7 @@ const UserPlaces = () => {
   const fetchPlaces = async () => {
     try {
       const response = await fetch(
-        `http://localhost:5000/api/places/user/${userId}`
+        `https://travelshare-mjrv.onrender.com/api/places/user/${userId}`
       );
       const data = await response.json();
       setLoadedPlaces(data.places || []);

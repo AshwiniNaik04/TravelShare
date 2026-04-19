@@ -41,7 +41,7 @@ const Signup = () => {
 
     try {
       const responseData = await sendRequest(
-        "http://localhost:5000/api/users/signup",
+        "https://travelshare-mjrv.onrender.com/api/users/signup",
         "POST",
         data
       );

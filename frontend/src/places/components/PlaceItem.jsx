@@ -24,7 +24,7 @@ const PlaceItem = (props) => {
   const confirmDeleteHandler = async () => {
     try {
       const response = await fetch(
-        `http://localhost:5000/api/places/${props.id}`,
+        `https://travelshare-mjrv.onrender.com/api/places/${props.id}`,
         {
           method: "DELETE",
           headers: {
@@ -58,7 +58,7 @@ const PlaceItem = (props) => {
     try {
 
       const response = await fetch(
-        `http://localhost:5000/api/places/${props.id}/like`,
+        `https://travelshare-mjrv.onrender.com/api/places/${props.id}/like`,
         {
           method: "PATCH",
           headers: {
@@ -125,7 +125,7 @@ const PlaceItem = (props) => {
         <Card className="place-item__content">
           <div className="place-item__image">
             <img
-              src={`http://localhost:5000/${props.image}`}
+              src={`https://travelshare-mjrv.onrender.com/${props.image}`}
               alt={props.title}
               style={{ width: "100%", height: "200px", objectFit: "cover" }}
             />

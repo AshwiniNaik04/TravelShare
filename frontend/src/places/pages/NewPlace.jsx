@@ -40,7 +40,7 @@ const NewPlace = () => {
       formData.append("address", address);
       formData.append("image", image);
 
-      const response = await fetch("http://localhost:5000/api/places", {
+      const response = await fetch("https://travelshare-mjrv.onrender.com/api/places", {
         method: "POST",
         headers: {
           Authorization: "Bearer " + auth.token

@@ -29,8 +29,8 @@ const Auth = () => {
     try {
 
       const url = isLoginMode
-        ? "http://localhost:5000/api/users/login"
-        : "http://localhost:5000/api/users/signup";
+        ? "https://travelshare-mjrv.onrender.com/api/users/login"
+        : "https://travelshare-mjrv.onrender.com/api/users/signup";
 
       let response;
 

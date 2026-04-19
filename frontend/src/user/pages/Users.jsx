@@ -16,7 +16,7 @@ const Users = () => {
 
           const response =
             await fetch(
-              "http://localhost:5000/api/users"
+              "https://travelshare-mjrv.onrender.com/api/users"
             );
 
           const responseData =
