@@ -4,7 +4,7 @@ const Avatar = (props) => {
   return (
     <div className={`avatar ${props.className}`}>
       <img
-        src={`http://localhost:5000/${props.image}`}
+        src={`https://travelshare-mjrv.onrender.com/${props.image}`}
         alt={props.alt}
       />
     </div>
