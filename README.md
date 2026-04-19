@@ -1,20 +1,18 @@
 # 🌍 TravelShare
 
-TravelShare is a full-stack web application where users can share, explore, and manage travel places with location details.  
-Users can add places they visited along with images, descriptions, and view them on an interactive map.
+TravelShare is a full-stack MERN web application that allows users to share travel experiences with images, descriptions, and location details. Users can explore posts from others, interact through likes, and manage their own travel places. The application focuses on combining social interaction with location-based visualization using Google Maps Embed.
 
 ---
 
 ## ✨ Features
 
-- User authentication (Signup / Login)
-- Add travel places with title, description, address & image
-- View all shared places from users
-- Update and delete your own places
-- Image upload support
-- Location integration using coordinates
-- Secure REST API with authentication
-- Responsive UI for all devices
+- Secure user authentication using JWT
+- Create, update, and delete travel posts (CRUD functionality)
+- Upload images for travel experiences
+- Explore travel places shared by users
+- Integrated Google Maps Embed for location visualization
+- Manage personal travel posts
+- Fully responsive UI for mobile and desktop devices
 
 ---
 
